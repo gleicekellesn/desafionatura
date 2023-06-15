@@ -1,0 +1,24 @@
+{
+  "name": "desafio_natura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:ci": "cypress run",
+    "cy:smoke-test": "cypress run --spec cypress/e2e/cadastro_usuario/cadastro_usuario_natura.cy.js"
+  },
+  "keywords": [],
+  "author": "Gleice Kelle",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.14.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "faker-br": "^0.4.1",
+    "gerador-validador-cpf": "^5.0.2"
+  }
+}
